@@ -19,7 +19,8 @@ object ComplexJSON {
 					jsondf.show() 
 					jsondf.printSchema()
 					val selectdata = jsondf.select("No","Year","address.temporary_address","address.permanent_address","firstname" ,"lastname" ) 
-					selectdata.show() 
+					selectdata.show()
 					selectdata.printSchema() 
+					println("==================Completed======================") 
 	}
 }
